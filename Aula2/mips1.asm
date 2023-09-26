@@ -12,4 +12,4 @@ main:
  nor $t2,$t0,$0
  
  
- jr $ra
+ jr $ra #fim do programa.

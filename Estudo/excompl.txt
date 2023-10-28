@@ -1,0 +1,35 @@
+#Mapa de registos
+#n_even:$t0
+#n_odd:$t1
+#p1:$t2
+#p2:$t3
+
+	.data
+	.eqv read_int,
+	.eqv print_int10,
+	
+listaA:	.space 140
+listaB: .space 140
+
+	.text
+	.globl main
+
+main: 	li $t0,0
+	li $t1,0
+	
+	
+for:	li $t2,ListaA
+	addi $t4,$t2,35
+	bge $t2,$t4,for2
+	li $v0,read_int
+	syscall
+	move $t5,$v0		#*p=read_int
+	
+for2:	li $t2,listaA
+	li $t3,listaB
+	addi $t4,$t2,35
+	bge  $t2,$t4,for3
+
+if:	
+	
+for3:

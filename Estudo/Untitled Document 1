@@ -1,0 +1,18 @@
+#Mapa de registos
+#i: $t0
+#v: $t1
+#&(val[0]): $t2
+
+.data
+ 
+.eqv print_int10,
+.eqv print_char,
+.eqv print_string,
+.eqv SIZE,8
+
+string: .asciiz "Result is: "
+char: .asciiz ","
+
+.text
+.globl main
+

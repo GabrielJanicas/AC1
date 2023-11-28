@@ -1,0 +1,26 @@
+#Mapa de registos
+#n_even: $t0
+#n_odd:  $t1
+#p1:	 $t2
+#p2:	 $t3
+
+.data
+.eqv print_in10,1
+.eqv read_int,5
+.eqv N,35
+
+.text
+.globl main
+
+main:	li $t0,0
+	li $t1,0
+	la $t2,a
+	li $
+
+for:
+	bge $t2,$t4,for1
+
+
+
+
+
